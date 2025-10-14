@@ -47,12 +47,12 @@ const config = {
           lastVersion: 'current',
           versions: {
             current: {
-              label: '3.0.0',
+              label: '3.1.0',
               // path: '2.0.0',
                badge: false
                 },
             },
-            onlyIncludeVersions: ['current', '2.0.0']
+            onlyIncludeVersions: ['current', '3.0.0']
 
 
           
@@ -89,7 +89,7 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'sidebar',
+            sidebarId: 'hrmsSidebar',
             position: 'left',
             label: 'Docs',
           },
