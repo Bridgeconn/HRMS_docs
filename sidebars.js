@@ -34,6 +34,7 @@ const sidebars = {
         'HOD/Reporting Person/p2-4-Appraisals',
         'HOD/Reporting Person/p2-5-Travel',
         'HOD/Reporting Person/p2-6-Hotel',
+        'HOD/Reporting Person/p2-7-teamoverview',
       ],
     },
     {
@@ -49,6 +50,17 @@ const sidebars = {
         'HR Processes/p3-7-employment',
         'HR Processes/p3-8-department',
         'HR Processes/p3-9-company',
+        {
+          type: 'category',
+          label: 'Reports',
+          items: [
+            'HR Processes/Reports/p4-1-leavereport',
+            'HR Processes/Reports/p4-2-attendance',
+            'HR Processes/Reports/p4-3-employeereports',
+            'HR Processes/Reports/p4-4-travelhotelreports',
+            'HR Processes/Reports/p4-5-appraisalreports',
+          ],
+        },
       ],
     },
   ],
